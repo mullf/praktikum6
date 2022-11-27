@@ -4,9 +4,7 @@
  ### Buat Dictionary daftar kontak
  #### - Nama sebagai Key dan Nomor sebagai value
  telp = {}
- 
  telp['Ari'] = '081267888'
- 
  telp['Dina'] = '087677776'
 
  #### - Tampilkan kontaknya Ari
