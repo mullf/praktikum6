@@ -4,8 +4,8 @@
  ### Buat Dictionary daftar kontak
  #### - Nama sebagai Key dan Nomor sebagai value
  telp = {}
-telp['Ari'] = '081267888'
-telp['Dina'] = '087677776'
+ telp['Ari'] = '081267888'
+ telp['Dina'] = '087677776'
 
  #### - Tampilkan kontaknya Ari
  #### - Tambah kontak baru dengan nama Riko, nomor 087654544
