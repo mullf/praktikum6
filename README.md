@@ -136,17 +136,16 @@ elif List.lower() == 'l':
             i = 0
             for j in Data.items():
                 i += 1
-                print("| {no:2d} | {0:15s} | {1:15d | {2:5d} | {3:5d} | {4:7d} | {5:7.2f} |"
-                      .format(j[0][13], j[1][0], j[1][1], j[1][2], j[1][3], j[1][4], no=i))
-                print("="*78)
-            else:
-                print("="*78)
-                print("|                            Daftar Mahasiswa                            |")
-                print("="*78)
-                print("|No. |     Nama      |      NIM      |  UTS  |  UAS  |  Tugas  |  Akhir  |")
-                print("="*78)
-                print("|                           TIDAK ADA DATA                               |")
-                print("="*78)
+                print("| {no:2d} | {0:15s} | {1:15d} | {2:5d} | {3:5d} | {4:7d} | {5:7.2f} |"
+                      .format(j[0][:13], j[1][0], j[1][1], j[1][2], j[1][3], j[1][4], no=i))
+            print("=" * 78)
+        else:
+            print("="*78)
+            print("|                            Daftar Mahasiswa                            |")
+            print("="*78)
+            print("|No. |     Nama      |      NIM      |  UTS  |  UAS  |  Tugas  |  Akhir  |")
+            print("|                           TIDAK ADA DATA                               |")
+            print("="*78)
 ```
 #### Apabila menginput 'l' maka sistem akan menampilkan data - data yang sudah dimasukkan. Jika belum memasukkan data maka outputnya menjadi "TIDAK ADA DATA".
 
