@@ -19,6 +19,7 @@
 ## Tugas Praktikum
 
 ### Buat Nilai Mahasiswa menggunakan Dictionary
+```
 elif List.lower() == 'u':
         print ("Ubah Data")
         nama = input("Masukkan Nama  : ")
@@ -31,3 +32,4 @@ elif List.lower() == 'u':
             Data[nama] = nim, tugas, uts, uas, akhir
         else :
             print("Nama {0} tidak ditemukan".format(nama))
+```
