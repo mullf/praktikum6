@@ -148,7 +148,7 @@ elif List.lower() == 'l':
             print("|                           TIDAK ADA DATA                               |")
             print("="*78)
 ```
-#### Apabila menginput 'l' maka sistem akan menampilkan data - data yang sudah dimasukkan. Jika belum memasukkan data maka outputnya menjadi "TIDAK ADA DATA".
+#### Apabila menginput 'l' maka sistem akan menampilkan data - data yang sudah dimasukkan.
 
 ![gambar1](gambar/prak6_11.png)
 
