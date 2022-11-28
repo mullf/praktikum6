@@ -122,7 +122,7 @@ elif List.lower() == 'c':
 ```
 #### Apabila menginputkan 'c' maka akan diminta untuk memasukkan nama yang akan dicari. Apabila nama yang dicari ada di dalam dictionary maka outputnya akan menampilkan data dari nama tersebut.
 
-![gambar1](gambar/prak6_6.png)
+![gambar1](gambar/prak6_10.png)
 
 #### 7. Membuat syntax untuk melihat atau menampilkan data.
 ```
@@ -150,7 +150,11 @@ elif List.lower() == 'l':
 ```
 #### Apabila menginput 'l' maka sistem akan menampilkan data - data yang sudah dimasukkan. Jika belum memasukkan data maka outputnya menjadi "TIDAK ADA DATA".
 
-![gambar1](gambar/prak6_7.png)
+![gambar1](gambar/prak6_11.png)
+
+#### Jika belum memasukkan data maka outputnya menjadi "TIDAK ADA DATA".
+
+![gambar1](gambar/prak6_12.png)
 
 #### 8. Mmebuat sybtax untuk menghentikan perulangan.
 ```
