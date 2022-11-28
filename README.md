@@ -112,7 +112,7 @@ elif List.lower() == 'c':
             print("="*73)
             print("|                        Daftar Mahasiswa                        |")
             print("="*73)
-            print("|   Nama     |      NIM      |  UTS  |  UAS  |  Tugas  |  Akhir  |")
+            print("| Nama            |       NIM       |  UTS  |  UAS  |  Tugas  |  Akhir  |")
             print("="*73)
             print("| {0:15s} | {1:15d} | {2:5d} | {3:5d} | {4:7d} | {5:7.2f} |"
                   .format(nama, nim, uts, uas, tugas, akhir))
@@ -144,6 +144,7 @@ elif List.lower() == 'l':
             print("|                            Daftar Mahasiswa                            |")
             print("="*78)
             print("|No. |     Nama      |      NIM      |  UTS  |  UAS  |  Tugas  |  Akhir  |")
+            print("="*78)
             print("|                           TIDAK ADA DATA                               |")
             print("="*78)
 ```
